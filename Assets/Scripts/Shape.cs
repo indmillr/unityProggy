@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shape : MonoBehaviour
+public class Shape : MonoBehaviour /
 {
-    // Encapsulation
     private float m_Speed = 0.5f;
     public float speed
     {
+        // Encapsulation
         get { return m_Speed; }
         set
         {
